@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+    </head>
+
+    <body>
+
+        <img src="A.gif" hidden>
+        <a href="#" onclick="changeimage('A.gif','im')"><img src="images.png" id="im"></a>
+
+        <img src="B.gif" hidden>
+        <a href="#" onclick="changeimage('B.gif','im2')"><img src="images2.png" id="im2"></a>
+        
+    </body>
+
+    <script>
+        function changeimage(image,im){
+            let dasplay=document.getElementById(im);
+            dasplay.src=image;
+        }
+
+    </script>
+</html>
